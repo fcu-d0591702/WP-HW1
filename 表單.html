@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>使用者註冊</title>
+
+</head>
+
+
+<body>
+<center>
+
+<table>
+    <tr>
+	<td>帳號</td>
+	<td><input name="user_id" value="" /></td>
+    </tr>
+    <tr>
+	<td>密碼</td>
+	<td><input name="user_pw" value="" /></td>
+    </tr>
+    <tr>
+	<td>電子郵件</td>
+	<td><input type="email" name="user_mail" value="" /></td>
+    </tr>
+    <tr>
+	<td>生日</td>
+	<td><input type="Date pickers" name="user_id" value="" /></td>
+    </tr>
+    <tr>
+	<td>性別</td>
+	<td>
+		<form>
+			<label for="male">男</label>
+			<input type="radio" name="sex" id="男" />
+			<label for="female">女</label>
+			<input type="radio" name="sex" id="女" />
+			<label for="female">其他</label>
+			<input type="radio" name="sex" id="其他" />
+		</form>
+	</td>
+    </tr>
+    <tr>
+	<td>喜好</td>
+	<td>
+		<input type="checkbox">打球
+		<input type="checkbox">打電動
+		<input type="checkbox">購物
+		<input type="checkbox">其他
+	</td>
+    </tr>
+    <tr>
+	<td>年級</td>
+	<td>
+		<select>
+  			<option>大一</option>
+ 			<option>大二</option>
+  			<option>大三</option>
+  			<option>大四</option>
+			<option>其他</option>
+		</select>
+	</td>
+    </tr>
+    <tr>
+	<form action="/example/html5/demo_form.asp" method="get">
+	<td><button type="submit">送出</button></td>
+	<td><button type="reset">重設</button></td>
+	</form>
+    </tr>
+</table>
+
+
+</center>
+</body>
+</html>
